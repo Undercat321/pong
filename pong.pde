@@ -12,7 +12,7 @@ var paddle_height = 40;
 var dist_wall = 8;
 
 // Adding total hits here...
-//float total = 0;
+//float total = 2;
 float highscore = 0;
 float score = 0;
 
@@ -31,7 +31,7 @@ void draw() {
     background(155,0,0);
 
     // Increment x and y by speed of ball
-    ball_x += ball_dir * 0.0;
+    ball_x += ball_dir * 6.0;
     ball_y += dy * 6.0;
 
     // If the ball was missed... start over
