@@ -6,15 +6,15 @@ float ball_size = 7;  // Radius of ball
 float dy = 2;  // Change in y
 
 // Global variables for the paddle
-var paddle_width = 5;
-var paddle_height = 40;
+var paddle_width = 60;
+var paddle_height = 20;
 
 var dist_wall = 8;
 
 // Adding total hits here...
 //float total = 0;
 float highscore = 0;
-float score = 5;
+float score = 0;
 
 void setup() {
     size(600, 400);
